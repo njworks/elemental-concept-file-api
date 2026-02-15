@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File upload test</title>
+</head>
+<body>
+    <h2>Upload File Test</h2>
+    <form action="http://localhost:8080/file" method="post" enctype="multipart/form-data">
+        Select file to upload:
+        <input type="file" name="file" id="file">
+        <br><br>
+        <input type="submit" value="Upload and receive JSON file">
+    </form>
+</body>
+</html>

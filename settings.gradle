@@ -1,0 +1,14 @@
+pluginManagement {
+    plugins {
+        id 'org.springframework.boot' version '3.4.13' apply false
+        id 'io.spring.dependency-management' version '1.1.7'
+    }
+}
+
+rootProject.name = 'elemental-api'
+
+include 'application'
+include 'domain'
+include 'database'
+include 'rest'
+include 'client'
